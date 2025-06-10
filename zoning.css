@@ -1,0 +1,37 @@
+body{
+    width: 80%; /* width largeur de l'element , par rapport a son parent */
+    margin: 10px auto; /* Margin : marge exterieure de l'elemeNt (1) pousse ce qu'il y'a autour ) */
+    font-family: cursive;
+} 
+
+#contenu{
+    background-color: red;
+    border: 2px solid black;
+}
+
+header, footer { /* , et , le header et le footzr en meme temps */
+    height: 80px; /* height la hauteur de l'element ( par defaut en auto) */
+    background-color: #8e3557; /* code de couleur hexadecimal
+    plusieurs facons disponible
+    - nom : red, black, yellow,green
+    -rgb ( red green blue) rgb: rgb(233,58,74)
+    -hexadecimal : # quelquechose (exemple: #8e3557)
+    */
+    color: white; /* color : couleur de texte uniquement */
+    text-align: center; /*ALIGNEMENT DU TEXTE */
+    padding-top: 6px; /* paading : marges intérieures d'un element ( on pousse l'élementde l'interieur ) */
+}
+nav{
+    height: 40px;
+    background-color: #4a1a2c;
+    color: #fff;
+    padding-left: 20px;
+    padding-top: 6px;
+}
+section{
+    border: 20px solid #060605;
+    background-color: #e6e2af;
+    height: 500px;
+    text-align: center;
+    
+}

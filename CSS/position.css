@@ -1,0 +1,51 @@
+div {
+  width: 100px;
+  height: 100px;
+  background-color: lightblue;
+  margin: 10px;
+  /* 1ére position */
+  /* Position par défaut de chaque élement, il n'est impacté par le changement position (top,right,left,bottom) */
+  /* position static */
+
+  /* position relative .  Si on se specifie pas de poition (top,right,bottom,left) elle restera à la place, mais si on spécifie. elle bougera par rapport a sa position INITIALE */
+  /* position: relative; */
+  /* bottom: 50px; */
+
+  /* top:150px bougera de 150px vers le bas par rapport a son point vers le haut */
+}
+ .chevauche2 { 
+  height: 400px;
+  width: 400px;
+  margin: auto;
+  /* On met notre div en position relative (se place par rapport à elle-meme) */
+  position: relative;
+}
+/* 3eme position : absolute : se place par rapport a son parent si ce parent a une position a une position définie ( relative,absolute,fixed,sticky,mais non static), sinon il se placera par rapport au body si aucun des ancetre on des postions */
+.chevauche2 p {
+  /* Va se placer par rapport à .chevauche2 qui a une position relative ' fontctionne avec tout les ancetre qui ont position (relative,absolute,fixed sticked) */
+
+}
+/* 4eme position :FIXED
+L'élement sera fixe par rapport a la fenetre du navigateur , on peut le bouger avec les top,right,left,bottom */
+/* h1 { */
+    /* position: fixed; */
+    /* bottom: 0; */
+    /* right: 0; */
+/* } */
+/* body{ */
+body{
+    height: 5000px;
+}
+    /* height: 3000px; */
+/* } */
+/* 5eme postion  */
+/* Hybridre entre relative et fixed  */
+/* l'element reste dans le flux ( a sa palce) jusqu'a atteindre une div une distance définie (exemple :top 0). 
+PUIS IL SE FIXE 0 CET ENDROIT TANT QUE SON CENTENEUR EST VISIBLE  */
+h1{
+    position: sticky;
+    top: 50px;
+}
+#sticky {
+    height: 800px;
+}

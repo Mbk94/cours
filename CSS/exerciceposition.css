@@ -1,0 +1,56 @@
+body{
+    height: 2500px;
+}
+div{
+    width: 100px;
+    height: 100px;
+}
+.bleu{
+    background-color: blue;
+    position: relative;
+    left: 20px;
+}
+.rouge{
+    background-color: red;
+    position: absolute;
+    /* top: 0; */
+    /* left: 0; */
+}
+.green{
+    background-color: green;
+}
+.parent{
+    position: relative;
+    background-color:yellow;
+
+}
+p :first-child{
+    position: absolute; 
+    right: 0; 
+    bottom: 0; 
+}
+.exercice{
+    /* width: 100%; */
+    /* position: fixed; */
+    /* top: 0; */
+}
+h1{
+    top: 0;
+    position: sticky;
+    
+}
+section{
+    height: 500px;
+    background-color: chocolate;
+}
+.index{
+ background-color: blue;
+ position: relative;
+ top: 20px;
+ z-index: 10;
+}
+.inde{
+background-color: darkmagenta;
+position: relative;
+z-index: 100;
+}

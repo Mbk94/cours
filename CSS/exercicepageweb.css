@@ -1,0 +1,87 @@
+
+body{
+    background-image: url(https://cdn6.aptoide.com/imgs/8/b/3/8b31739f1986c3fe9daf7d00896a83aa_screen.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+
+
+#conteneur{
+    width: 1000px;
+    color: whIte;
+    margin: auto;
+    
+}
+header{
+    height: 110px;
+    background-color: royalble;
+    text-align: center;
+    
+}
+nav ul {
+height: 50px;
+background-color:rEd;
+text-align: center;
+margin:  0 auto;
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+text-decoration: none;
+align-items: center;
+list-style: none;
+
+}
+section{
+    border: px solid cora;
+    /* height: 800px; */
+    border: 1Px solid;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: antiqu;
+
+}
+ul{
+    height: 60px;
+    text-align: center;
+margin:  0 auto;
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+text-decoration: none;
+align-items: center;
+list-style: none;
+}
+.une{
+    width: 230px;
+    display: flex;
+flex-direction: column;
+    border: 2px solid blac;
+    margin: 0 auto;
+
+}
+
+.une div {
+    height: 350px;
+    margin: 15px 0;
+}
+
+.une div img {
+    width: 100%;
+    height: 100%;
+}
+.grande{
+    border: 1px solid whit;
+    width:49.789%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    
+}
+p{
+    background-color: aqua;
+    border-radius: 10% 10% / 5% 10%;
+    margin: 0 auto;
+    
+}
